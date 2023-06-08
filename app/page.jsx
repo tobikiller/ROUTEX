@@ -25,7 +25,7 @@ const page = () => {
             facilities in your area. Our web map includes locations such as
             gyms, dance studios, libraries, and tutoring centers. Whether you're
             looking to get fit or learn something new, LA PLACE has got you
-            covered.
+            coveredssd.
           </p>
         </div>
 
