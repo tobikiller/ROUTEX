@@ -1,5 +1,5 @@
 import Marquee from "react-fast-marquee";
-
+import Head from "next/head";
 const page = () => {
   return (
     <>
