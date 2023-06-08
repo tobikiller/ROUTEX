@@ -114,10 +114,10 @@ const page = () => {
             <div className="flex gap-10">
               <div className="flex  items-center space-x-5">
                 <div className="flex items-center gap-5">
-                  <p className=" uppercase text-CreamyWhite-0 text-[58.73px]">
+                  <p className=" uppercase text-CreamyWhite-0 sm:text-[58.73px] text-lg ">
                     A Place to be for
                   </p>
-                  <div className="w-14 h-14 rounded-full  glass-icon flex items-center justify-center p-3">
+                  <div className="md:w-14 md:h-14 w-5 h-5 rounded-full p-1  glass-icon flex items-center justify-center md:p-3">
                     <img
                       src="/assets/icons/footballer.svg"
                       alt="football-icon"
@@ -125,10 +125,10 @@ const page = () => {
                   </div>
                 </div>
                 <div className="flex items-center gap-5">
-                  <p className=" uppercase text-CreamyWhite-0 text-[58.73px]">
+                  <p className=" uppercase text-CreamyWhite-0 sm:text-[58.73px] text-lg ">
                     A Place to be for
                   </p>
-                  <div className="w-14 h-14 rounded-full  glass-icon flex items-center justify-center p-3">
+                  <div className="md:w-14 md:h-14 w-5 h-5 rounded-full p-1  glass-icon flex items-center justify-center md:p-3">
                     <img
                       src="/assets/icons/footballer.svg"
                       alt="football-icon"
@@ -136,10 +136,10 @@ const page = () => {
                   </div>
                 </div>
                 <div className="flex items-center gap-5 ">
-                  <p className=" uppercase text-CreamyWhite-0 text-[58.73px]">
+                  <p className=" uppercase text-CreamyWhite-0 sm:text-[58.73px] text-lg ">
                     A Place to be for
                   </p>
-                  <div className="w-14 h-14 rounded-full  glass-icon flex items-center justify-center p-3">
+                  <div className="md:w-14 md:h-14 w-5 h-5 rounded-full p-1  glass-icon flex items-center justify-center md:p-3">
                     <img
                       src="/assets/icons/footballer.svg"
                       alt="football-icon"
@@ -153,10 +153,10 @@ const page = () => {
             <div className="flex gap-10">
               <div className="flex  items-center space-x-5">
                 <div className="flex items-center gap-5">
-                  <p className=" uppercase text-CreamyWhite-0 text-[58.73px]">
+                  <p className=" uppercase text-CreamyWhite-0 sm:text-[58.73px] text-lg ">
                     A Place to be for
                   </p>
-                  <div className="w-14 h-14 rounded-full  glass-icon flex items-center justify-center p-3">
+                  <div className="md:w-14 md:h-14 w-5 h-5 rounded-full p-1  glass-icon flex items-center justify-center md:p-3">
                     <img
                       src="/assets/icons/footballer.svg"
                       alt="football-icon"
@@ -164,10 +164,10 @@ const page = () => {
                   </div>
                 </div>
                 <div className="flex items-center gap-5">
-                  <p className=" uppercase text-CreamyWhite-0 text-[58.73px]">
+                  <p className=" uppercase text-CreamyWhite-0 sm:text-[58.73px] text-lg ">
                     A Place to be for
                   </p>
-                  <div className="w-14 h-14 rounded-full  glass-icon flex items-center justify-center p-3">
+                  <div className="md:w-14 md:h-14 w-5 h-5 rounded-full p-1  glass-icon flex items-center justify-center md:p-3">
                     <img
                       src="/assets/icons/footballer.svg"
                       alt="football-icon"
@@ -175,10 +175,10 @@ const page = () => {
                   </div>
                 </div>
                 <div className="flex items-center gap-5 ">
-                  <p className=" uppercase text-CreamyWhite-0 text-[58.73px]">
+                  <p className=" uppercase text-CreamyWhite-0 sm:text-[58.73px] text-lg ">
                     A Place to be for
                   </p>
-                  <div className="w-14 h-14 rounded-full  glass-icon flex items-center justify-center p-3">
+                  <div className="md:w-14 md:h-14 w-5 h-5 rounded-full p-1  glass-icon flex items-center justify-center md:p-3">
                     <img
                       src="/assets/icons/footballer.svg"
                       alt="football-icon"
