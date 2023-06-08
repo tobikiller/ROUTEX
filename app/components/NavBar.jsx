@@ -32,7 +32,7 @@ export const NavBar = () => {
           <div className="w-10 h-1 bg-CreamyWhite-0"></div>
         </div>
         {link.map((links) => (
-          <li className="hidden sm:block">
+          <li key={links.id} className="hidden sm:block">
             <Link
               className={`${links.className} text-CreamyWhite-0`}
               href={links.href}
