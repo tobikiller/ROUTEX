@@ -1,6 +1,31 @@
 import Marquee from "react-fast-marquee";
 import Head from "next/head";
+import Link from "next/link";
 const page = () => {
+  const Team = [
+    {
+      id: 0,
+      src: "/assets/images/bel.png",
+      position: "Back end (Data management)​",
+      name: "Cho Bella Ngekwi",
+      alt: "Data",
+    },
+    {
+      id: 1,
+      src: "/assets/images/lait.png",
+      position: "Back end ( google API mapping​",
+      name: "Negol-Sam Gilles ",
+      alt: "Data",
+    },
+    {
+      id: 2,
+      src: "/assets/images/dl.png",
+      position: "Front end (Visualization and interaction)​",
+      name: "Edward Nguimeya",
+      alt: "Data",
+    },
+  ];
+
   return (
     <>
       <section className="mt-24">
@@ -108,13 +133,13 @@ const page = () => {
       </section>
 
       {/* marquee side */}
-      <div className="realtive">
+      <div className="realtive mb-24">
         <section className="left-0 absolute overflow-hidden  w-screen">
-          <Marquee className="py-3">
+          <Marquee className="py-4">
             <div className="flex gap-10">
               <div className="flex  items-center space-x-5">
                 <div className="flex items-center gap-5">
-                  <p className=" uppercase text-CreamyWhite-0 sm:text-[58.73px] text-lg ">
+                  <p className=" uppercase text-CreamyWhite-0 sm:text-[58.73px] text-4xl ">
                     A Place to be for
                   </p>
                   <div className="md:w-14 md:h-14 w-5 h-5 rounded-full p-1  glass-icon flex items-center justify-center md:p-3">
@@ -125,7 +150,7 @@ const page = () => {
                   </div>
                 </div>
                 <div className="flex items-center gap-5">
-                  <p className=" uppercase text-CreamyWhite-0 sm:text-[58.73px] text-lg ">
+                  <p className=" uppercase text-CreamyWhite-0 sm:text-[58.73px] text-4xl ">
                     A Place to be for
                   </p>
                   <div className="md:w-14 md:h-14 w-5 h-5 rounded-full p-1  glass-icon flex items-center justify-center md:p-3">
@@ -136,7 +161,7 @@ const page = () => {
                   </div>
                 </div>
                 <div className="flex items-center gap-5 ">
-                  <p className=" uppercase text-CreamyWhite-0 sm:text-[58.73px] text-lg ">
+                  <p className=" uppercase text-CreamyWhite-0 sm:text-[58.73px] text-4xl ">
                     A Place to be for
                   </p>
                   <div className="md:w-14 md:h-14 w-5 h-5 rounded-full p-1  glass-icon flex items-center justify-center md:p-3">
@@ -149,11 +174,11 @@ const page = () => {
               </div>
             </div>
           </Marquee>
-          <Marquee direction="right py-20">
+          <Marquee direction="right" className="p-8 h-[150px]">
             <div className="flex gap-10">
               <div className="flex  items-center space-x-5">
                 <div className="flex items-center gap-5">
-                  <p className=" uppercase text-CreamyWhite-0 sm:text-[58.73px] text-lg ">
+                  <p className=" uppercase text-CreamyWhite-0 sm:text-[58.73px] text-4xl ">
                     A Place to be for
                   </p>
                   <div className="md:w-14 md:h-14 w-5 h-5 rounded-full p-1  glass-icon flex items-center justify-center md:p-3">
@@ -164,7 +189,7 @@ const page = () => {
                   </div>
                 </div>
                 <div className="flex items-center gap-5">
-                  <p className=" uppercase text-CreamyWhite-0 sm:text-[58.73px] text-lg ">
+                  <p className=" uppercase text-CreamyWhite-0 sm:text-[58.73px] text-4xl ">
                     A Place to be for
                   </p>
                   <div className="md:w-14 md:h-14 w-5 h-5 rounded-full p-1  glass-icon flex items-center justify-center md:p-3">
@@ -175,7 +200,7 @@ const page = () => {
                   </div>
                 </div>
                 <div className="flex items-center gap-5 ">
-                  <p className=" uppercase text-CreamyWhite-0 sm:text-[58.73px] text-lg ">
+                  <p className=" uppercase text-CreamyWhite-0 sm:text-[58.73px] text-4xl ">
                     A Place to be for
                   </p>
                   <div className="md:w-14 md:h-14 w-5 h-5 rounded-full p-1  glass-icon flex items-center justify-center md:p-3">
@@ -190,6 +215,48 @@ const page = () => {
           </Marquee>
         </section>
       </div>
+      <section className="team mt-80">
+        <h4 className=" font-NeueLeiden font-bold text-[46px] text-CreamyWhite-0">
+          Team Members
+        </h4>
+        <div className="container grid grid-cols-2 md:flex justify-between md:items-center ">
+          {Team.map((teams) => (
+            <div
+              key={teams.id}
+              className="text-center flex flex-col justify-center items-center space-y-2"
+            >
+              <div className=" object-contain">
+                <img
+                  className="mx-auto w-[100px] sm:w-auto"
+                  src={teams.src}
+                  alt={teams.alt}
+                />
+              </div>
+              <div className="text-center w-auto sm:w-[190px]">
+                <p className="text-xl sm:text-3xl text-CreamyWhite-0 ">
+                  {teams.name}
+                </p>
+                <p className="text-sm text-BabyPowder-0 ">{teams.position}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="flex-col flex sm:flex-row sm:justify-between items-center gap-5 mt-24">
+        <div className=" bg-CreamyWhite-0 flex flex-col items-start w-full  justify-end  p-5 e-g  h-[150px] sm:h-[200px] rounded-xl">
+          <Link className="flex gap-5 text-2xl sm:text-4xl" href="/">
+            La place brand <br></br> guideline
+            <img src="/assets/icons/arrow_downward.svg" alt="" />
+          </Link>
+        </div>
+        <div className=" bg-CreamyWhite-0 flex flex-col items-start w-full  justify-end p-5  e-g h-[150px] sm:h-[200px] rounded-xl">
+          <Link className="flex gap-5 text-2xl sm:text-4xl" href="/">
+            How la place was <br></br> created
+            <img src="/assets/icons/arrow_downward.svg" alt="" />
+          </Link>
+        </div>
+      </section>
     </>
   );
 };
