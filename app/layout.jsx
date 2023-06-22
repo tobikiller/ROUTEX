@@ -17,8 +17,8 @@ export default function RootLayout({ children }) {
       />
       <body className="font-NeueLeiden max-w-4xl mx-4 md:mx-auto overflow-x-hidden bg-MetroriteBlack-0">
         <NavBar />
-        <main>{children}</main>
-        <Footer></Footer>
+        {children}
+        <Footer />
       </body>
     </html>
   );

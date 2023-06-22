@@ -10,7 +10,7 @@ export const NavBar = () => {
     {
       id: 1,
       name: "About Us",
-      href: "/",
+      href: "/about",
     },
     {
       id: 2,

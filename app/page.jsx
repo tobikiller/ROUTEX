@@ -243,20 +243,20 @@ const page = () => {
         </div>
       </section>
 
-      <section className="flex-col flex sm:flex-row sm:justify-between items-center gap-5 mt-24">
+      {/* <section className="flex-col flex sm:flex-row sm:justify-between items-center gap-5 mt-24">
         <div className=" bg-CreamyWhite-0 flex flex-col items-start w-full  justify-end  p-5 e-g  h-[150px] sm:h-[200px] rounded-xl">
           <Link className="flex gap-5 text-2xl sm:text-4xl" href="/">
             La place brand <br></br> guideline
             <img src="/assets/icons/arrow_downward.svg" alt="" />
           </Link>
         </div>
-        <div className=" bg-CreamyWhite-0 flex flex-col items-start w-full  justify-end p-5  e-g h-[150px] sm:h-[200px] rounded-xl">
+        <div className=" bg-CreamyWhite-0 flex flex-col items-start w-full hover:di  justify-end p-5  e-g h-[150px] sm:h-[200px] rounded-xl">
           <Link className="flex gap-5 text-2xl sm:text-4xl" href="/">
             How la place was <br></br> created
             <img src="/assets/icons/arrow_downward.svg" alt="" />
           </Link>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };
