@@ -12,13 +12,9 @@ export const NavBar = () => {
       name: "About Us",
       href: "/about",
     },
+
     {
       id: 2,
-      name: "Blog",
-      href: "/",
-    },
-    {
-      id: 3,
       name: "Get Started",
       href: "/",
       className:
