@@ -1,6 +1,6 @@
 # La Place
 
-## Getting started
+## Description
 The Laplace app is a great way to unlock learning and sport locations. It's an easy-to-use location finding app that helps you find the perfect spot for your learning and sport activities. Whether you're looking for a place to practice your golf swing or a spot to learn a new language, the Laplace app has something for everyone.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
