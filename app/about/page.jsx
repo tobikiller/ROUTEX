@@ -61,7 +61,7 @@ export default function About() {
             </p>
           </div>
           <div className="glass p-5 space-y-2">
-            <img src="/assets/images/12_Mindset_3D_bulb.png" alt="" />
+            <img src="/assets/images/12_Mindset_3D_Bulb.png" alt="" />
             <h3 className="font-bold text-CreamyWhite-0">Problem solving</h3>
             <p className="typo_normal max-w-xs">
               Taking our time to understand concepts which lead to problem
@@ -69,7 +69,7 @@ export default function About() {
             </p>
           </div>
           <div className="glass p-5 space-y-2">
-            <img src="/assets/images/5_Mindset_3D_analytics.png" alt="" />
+            <img src="/assets/images/5_Mindset_3D_Analytics.png" alt="" />
             <h3 className="font-bold text-CreamyWhite-0">Progress</h3>
             <p className="typo_normal max-w-xs">
               We keep track of our objectives and increase our progress
