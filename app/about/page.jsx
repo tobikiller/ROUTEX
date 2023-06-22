@@ -57,7 +57,8 @@ export default function About() {
             <img src="/assets/images/1_Mindset_3D_Chat.png" alt="" />
             <h3 className="font-bold text-CreamyWhite-0">Communication</h3>
             <p className="typo_normal max-w-xs">
-              Sharing knowledge is a great tool to achivement
+              Sharing knowledge is a great tool to achivement and problem
+              solving
             </p>
           </div>
           <div className="glass p-5 space-y-2">
