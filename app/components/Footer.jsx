@@ -24,12 +24,13 @@ export const Footer = () => {
   return (
     <div>
       <footer className="glass flex flex-col justify-center items-center w-full sm:max-w-xs   mx-auto space-y-5 mt-24 p-5">
-        <img className="w-[90px]" src="assets/la-place-icon.svg" alt="icon" />
+        <img className="w-[90px]" src="assets/icon.svg" alt="icon" />
         <ul className="flex gap-5">
           {link.map((footerLinks) => (
             <Link
+              key={footerLinks.id}
               href={footerLinks.href}
-              className="text-sm text-CreamyWhite-0"
+              className="text-sm text-black"
             >
               {footerLinks.name}
             </Link>
