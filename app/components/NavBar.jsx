@@ -16,7 +16,7 @@ export const NavBar = () => {
     {
       id: 2,
       name: "Get Started",
-      href: "/",
+      href: "/map",
       className:
         "bg-none py-0 px-0 sm:bg-purple-300 sm:py-3 sm:px-2 rounded-lg font-bold",
     },
