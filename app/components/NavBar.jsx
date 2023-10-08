@@ -18,7 +18,7 @@ export const NavBar = () => {
       name: "Get Started",
       href: "/",
       className:
-        "bg-none py-0 px-0 sm:bg-RedOrange-0 sm:py-3 sm:px-2 rounded-lg font-bold",
+        "bg-none py-0 px-0 sm:bg-purple-300 sm:py-3 sm:px-2 rounded-lg font-bold",
     },
   ];
 

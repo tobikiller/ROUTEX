@@ -37,7 +37,7 @@ const page = () => {
         <img
           className="mt-8"
           src="assets/place.svg"
-          alt="LaPlace map illustrations"
+          alt="Routex map illustrations"
         />
       </section>
       <section className="mt-24  flex flex-col md:flex-row gap-10 items-center justify-between">
@@ -48,10 +48,10 @@ const page = () => {
             need to know
           </h2>
           <p className="typo_normal">
-            LA PLACE provides a comprehensive listing of sports and learning
+            Routex provides a comprehensive listing of sports and learning
             facilities in your area. Our web map includes locations such as
             gyms, dance studios, libraries, and tutoring centers. Whether you're
-            looking to get fit or learn something new, LA PLACE has got you
+            looking to get fit or learn something new, Routex has got you
             covered.
           </p>
         </div>
@@ -59,7 +59,7 @@ const page = () => {
         <img
           className="mt-8"
           src="assets/sector-activity.svg"
-          alt="LaPlace different sectors"
+          alt="Routex different sectors"
         />
       </section>
 
@@ -236,13 +236,13 @@ const page = () => {
       {/* <section className="flex-col flex sm:flex-row sm:justify-between items-center gap-5 mt-24">
         <div className=" bg-CreamyWhite-0 flex flex-col items-start w-full  justify-end  p-5 e-g  h-[150px] sm:h-[200px] rounded-xl">
           <Link className="flex gap-5 text-2xl sm:text-4xl" href="/">
-            La place brand <br></br> guideline
+            Routex brand <br></br> guideline
             <img src="/assets/icons/arrow_downward.svg" alt="" />
           </Link>
         </div>
         <div className=" bg-CreamyWhite-0 flex flex-col items-start w-full hover:di  justify-end p-5  e-g h-[150px] sm:h-[200px] rounded-xl">
           <Link className="flex gap-5 text-2xl sm:text-4xl" href="/">
-            How la place was <br></br> created
+            How Routex was <br></br> created
             <img src="/assets/icons/arrow_downward.svg" alt="" />
           </Link>
         </div>
