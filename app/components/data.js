@@ -1,0 +1,58 @@
+export const locations = [
+  {
+    id: 1,
+    longitude: 3.8973,
+    latitude: 11.458855,
+    name: "Location 1",
+    description: "Description",
+  },
+  {
+    id: 2,
+    longitude: 4.12109,
+    latitude: 9.86379,
+    name: "Location 2",
+    description: "Description",
+  },
+  {
+    id: 3,
+    longitude: 4.12376,
+    latitude: 9.65734,
+    name: "Location 3",
+    description: "Description",
+  },
+  {
+    id: 4,
+    longitude: 5.54804,
+    latitude: 10.71135,
+    name: "Location 4",
+    description: "Description",
+  },
+  {
+    id: 5,
+    longitude: 7.04512,
+    latitude: 13.48488,
+    name: "Location 5",
+    description: "Description",
+  },
+  {
+    id: 6,
+    longitude: 7.40669,
+    latitude: 12.59241,
+    name: "Location 6",
+    description: "Description",
+  },
+  {
+    id: 7,
+    longitude: 9.3344,
+    latitude: 13.63726,
+    name: "Location 7",
+    description: "Description",
+  },
+  {
+    id: 8,
+    longitude: 10.80915,
+    latitude: 14.35939,
+    name: "Location 8",
+    description: "Description",
+  },
+];
