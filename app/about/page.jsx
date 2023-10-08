@@ -96,19 +96,19 @@ export default function About() {
 
             <div className="space-y-5 mt-5">
               <p className="typo_normal max-w-md ">
-                The Laplace app is a great way to unlock learning and sport
+                The Routex app is a great way to unlock learning and sport
                 locations. It's an easy-to-use location finding app that helps
                 you find the perfect spot for your learning and sport
                 activities. Whether you're looking for a place to practice your
-                golf swing or a spot to learn a new language, the Laplace app
-                has something for everyone.
+                golf swing or a spot to learn a new language, the Routex app has
+                something for everyone.
               </p>
               <p className="typo_normal max-w-md ">
                 With its comprehensive database of learning and sport locations,
                 you can easily find the perfect spot for whatever activity
                 you're looking for. So, if you're ready to take your learning
                 and sports activities to the next level, then it's time to
-                unlock great learning and sports locations with the Laplace App!
+                unlock great learning and sports locations with the Routex App!
               </p>
             </div>
           </div>

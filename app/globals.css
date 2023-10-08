@@ -8,7 +8,7 @@
 }
 
 .typo_normal {
-  @apply text-[16.48px] text-BabyPowder-0 leading-[20.48px] tracking-[-0.12px];
+  @apply text-[16.48px] text-black leading-[20.48px] tracking-[-0.12px];
 }
 
 .sub-heading {
@@ -19,11 +19,11 @@
 }
 
 .heading {
-  @apply text-[48.43px] md:text-[58.73px] md:leading-[63.74px] font-bold text-CreamyWhite-0 leading-[46.69px] tracking-[-0.85px];
+  @apply text-[48.43px] md:text-[58.73px] md:leading-[63.74px] font-bold text-purple-500 leading-[46.69px] tracking-[-0.85px];
 }
 
 .glass {
-  background: rgba(43, 42, 42, 0.65);
+  background: #ffff;
 
   box-shadow: 0 8px 32px 0 rgba(42, 42, 43, 0.37);
   backdrop-filter: blur(20px);
@@ -33,7 +33,7 @@
 }
 
 .glass-circle {
-  background: rgba(128, 127, 127, 0.65);
+  @apply bg-purple-300;
 
   box-shadow: 0 8px 32px 0 rgba(228, 228, 228, 0.37);
   backdrop-filter: blur(20px);

@@ -36,8 +36,8 @@ const page = () => {
         </h1>
         <img
           className="mt-8"
-          src="assets/Map-locations.svg"
-          alt="LaPlace map illustrations"
+          src="assets/place.svg"
+          alt="Routex map illustrations"
         />
       </section>
       <section className="mt-24  flex flex-col md:flex-row gap-10 items-center justify-between">
@@ -48,10 +48,10 @@ const page = () => {
             need to know
           </h2>
           <p className="typo_normal">
-            LA PLACE provides a comprehensive listing of sports and learning
+            Routex provides a comprehensive listing of sports and learning
             facilities in your area. Our web map includes locations such as
             gyms, dance studios, libraries, and tutoring centers. Whether you're
-            looking to get fit or learn something new, LA PLACE has got you
+            looking to get fit or learn something new, Routex has got you
             covered.
           </p>
         </div>
@@ -59,7 +59,7 @@ const page = () => {
         <img
           className="mt-8"
           src="assets/sector-activity.svg"
-          alt="LaPlace different sectors"
+          alt="Routex different sectors"
         />
       </section>
 
@@ -70,9 +70,7 @@ const page = () => {
             <div className="glass-circle h-10 w-10 rounded-full flex justify-center items-center">
               <img src="assets/icons/search.svg" alt="" />
             </div>
-            <p className="font-bold text-CreamyWhite-0 text-base ">
-              Search Function
-            </p>
+            <p className="font-bold text-black text-base ">Search Function</p>
           </div>
 
           <p className="typo_normal">
@@ -85,9 +83,7 @@ const page = () => {
             <div className="glass-circle h-10 w-10 rounded-full flex justify-center items-center">
               <img src="assets/icons/blur_on.svg" alt="" />
             </div>
-            <p className="font-bold text-CreamyWhite-0 text-base ">
-              Filtering Options
-            </p>
+            <p className="font-bold text-black text-base ">Filtering Options</p>
           </div>
 
           <p className="typo_normal">
@@ -97,7 +93,7 @@ const page = () => {
         </div>
         {/* icon */}
         <div className=" sm:col-span-2 place-self-center place-items-center max-w-2xl flex justify-center items-center w-20 h-20 rounded-full glass-icon p-4">
-          <img className="w-14" src="assets/la-place-icon.svg" alt="" />
+          <img className="w-14" src="assets/icon.svg" alt="" />
         </div>
         {/* end-icon */}
         <div className="glass w-full    p-5 space-y-2">
@@ -105,9 +101,7 @@ const page = () => {
             <div className="glass-circle h-10 w-10 rounded-full flex justify-center items-center">
               <img src="assets/icons/reviews.svg" alt="" />
             </div>
-            <p className="font-bold text-CreamyWhite-0 text-base ">
-              User Reviews
-            </p>
+            <p className="font-bold text-black text-base ">User Reviews</p>
           </div>
 
           <p className="typo_normal">
@@ -120,9 +114,7 @@ const page = () => {
             <div className="glass-circle h-10 w-10 rounded-full flex justify-center items-center">
               <img src="assets/icons/assistant_navigation-1.svg" alt="" />
             </div>
-            <p className="font-bold text-CreamyWhite-0 text-base ">
-              interactive map
-            </p>
+            <p className="font-bold text-black text-base ">interactive map</p>
           </div>
 
           <p className="typo_normal">
@@ -133,7 +125,7 @@ const page = () => {
       </section>
 
       {/* marquee side */}
-      <div className="realtive mb-24">
+      {/* <div className="realtive mb-24">
         <section className="left-0 absolute overflow-hidden  w-screen">
           <Marquee className="py-4">
             <div className="flex gap-10">
@@ -214,9 +206,9 @@ const page = () => {
             </div>
           </Marquee>
         </section>
-      </div>
-      <section className="team mt-80">
-        <h4 className=" font-NeueLeiden font-bold text-[46px] text-CreamyWhite-0">
+      </div> */}
+      <section className="team mt-20">
+        <h4 className=" font-NeueLeiden font-bold text-[46px] text-purple-500">
           Team Members
         </h4>
         <div className="container grid grid-cols-2 md:flex justify-between md:items-center ">
@@ -233,10 +225,8 @@ const page = () => {
                 />
               </div>
               <div className="text-center w-auto sm:w-[190px]">
-                <p className="text-xl sm:text-3xl text-CreamyWhite-0 ">
-                  {teams.name}
-                </p>
-                <p className="text-sm text-BabyPowder-0 ">{teams.position}</p>
+                <p className="text-xl sm:text-3xl text-black ">{teams.name}</p>
+                <p className="text-sm text-black ">{teams.position}</p>
               </div>
             </div>
           ))}
@@ -246,13 +236,13 @@ const page = () => {
       {/* <section className="flex-col flex sm:flex-row sm:justify-between items-center gap-5 mt-24">
         <div className=" bg-CreamyWhite-0 flex flex-col items-start w-full  justify-end  p-5 e-g  h-[150px] sm:h-[200px] rounded-xl">
           <Link className="flex gap-5 text-2xl sm:text-4xl" href="/">
-            La place brand <br></br> guideline
+            Routex brand <br></br> guideline
             <img src="/assets/icons/arrow_downward.svg" alt="" />
           </Link>
         </div>
         <div className=" bg-CreamyWhite-0 flex flex-col items-start w-full hover:di  justify-end p-5  e-g h-[150px] sm:h-[200px] rounded-xl">
           <Link className="flex gap-5 text-2xl sm:text-4xl" href="/">
-            How la place was <br></br> created
+            How Routex was <br></br> created
             <img src="/assets/icons/arrow_downward.svg" alt="" />
           </Link>
         </div>
